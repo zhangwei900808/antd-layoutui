@@ -19,13 +19,13 @@ class AppRoute extends Component {
       <>
         {/* 解决github gh-pages发布必须以Hash浏览否则history模式就会报错问题，
       如果想使用history模式去掉下面的HashRouter即可 */}
-        {/* <HashRouter> */}
-        <Switch>
-          <Route path="/login" render={() => this.Authentication()} />
-          <Route path="/" component={LayoutPage} />
-          <Route component={NoFound} />
-        </Switch>
-        {/* </HashRouter> */}
+        <HashRouter>
+          <Switch>
+            <Route path="/login" render={() => this.Authentication()} />
+            <Route path="/" component={LayoutPage} />
+            <Route component={NoFound} />
+          </Switch>
+        </HashRouter>
       </>
     );
   }

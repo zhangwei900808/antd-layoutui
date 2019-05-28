@@ -2,6 +2,7 @@
   "name": "antd-layoutui",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://awbeci.xyz/antd-layoutui/",
   "dependencies": {
     "@antv/g2": "^3.5.4",
     "@babel/plugin-proposal-decorators": "^7.4.0",

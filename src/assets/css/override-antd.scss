@@ -1,0 +1,64 @@
+.ant-layout-sider {
+  background: #fff;
+}
+
+.ant-modal {
+  top: 20px;
+}
+
+.ant-modal-content {
+  .ant-modal-body {
+    margin-top: 0 !important;
+  }
+
+  .ant-modal-close {
+    color: #fff;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .ant-modal-header {
+    background: #0e64c3;
+
+    .ant-modal-title {
+      color: #fff;
+    }
+  }
+}
+
+.ant-input-affix-wrapper {
+  .ant-input {
+    &:not(:first-child) {
+      padding-left: 45px;
+    }
+  }
+}
+
+.ant-spin-nested-loading {
+  div {
+    .ant-spin {
+      background: #f0f2f5;
+      height: 100%;
+      width: 100%;
+      max-height: 100%;
+    }
+  }
+}
+
+.ant-table {
+  .ant-table-thead {
+    tr {
+      background-color: #f0f2f5 !important;
+    }
+  }
+}
+
+.ant-table-small {
+  .ant-table-content {
+    .ant-table-body {
+      margin: 0 !important;
+    }
+  }
+}

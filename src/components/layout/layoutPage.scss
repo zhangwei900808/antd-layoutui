@@ -1,0 +1,108 @@
+.layout-container {
+  height: 100vh;
+
+  .layout-page-right-container {
+    overflow: hidden;
+
+    .layout-page-right-content {
+      // background: #ffffff;
+      overflow-y: auto;
+      min-height: 280px;
+      box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 2px -1px rgba(0, 0, 0, 0.2);
+
+      >div {
+        height: 100%;
+      }
+    }
+
+    .right-header {
+      position: relative;
+      z-index: 888;
+      // background: #123456;
+      background: #0e64c3;
+      color: #fff;
+      padding: 0;
+      font-size: 18px;
+      display: inline-flex;
+
+      .right-header-left {
+        position: relative;
+
+        .trigger {
+          font-size: 20px;
+          line-height: 64px;
+          padding: 0 24px;
+          cursor: pointer;
+          transition: color 0.3s;
+        }
+      }
+
+      .right-header-right {
+        position: absolute;
+        top: 0;
+        right: 24px;
+        font-size: 14px;
+
+        .right-header-right-dropdown {
+          padding: 0 10px;
+          cursor: pointer;
+
+          &:hover {
+            background: rgba(0, 0, 0, 0.025);
+          }
+        }
+      }
+    }
+  }
+
+  .sider-container {
+
+    // width: 250px;
+    // overflow-y: auto;
+    .logo {
+      box-sizing: border-box;
+      display: inline-block;
+      // background: #002140;
+      background: #0d58ab;
+      line-height: 64px;
+      height: 64px;
+      width: 100%;
+      // border-right: 1px solid #fff;
+      // background: rgba(255, 255, 255, 0.2);
+      padding: 0 22px;
+      display: inline-flex;
+      align-items: center;
+      overflow: hidden;
+      white-space: nowrap;
+
+      .title {
+        margin-left: 10px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        transition: all 0.3s ease 0s;
+      }
+    }
+
+    .ant-layout-sider-children {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .sider-menu-container {
+      overflow-y: auto;
+      overflow-x: hidden;
+      height: calc(100% - 64px);
+
+      .ant-menu-item {
+        &:first-child {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+
+  .right-container {
+    margin-left: 200px;
+  }
+}

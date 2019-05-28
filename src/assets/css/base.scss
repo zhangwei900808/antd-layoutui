@@ -1,0 +1,13 @@
+/* 用于部分页面的统一样式 
+** 创建人:zm
+***2019/04/08
+*/
+.common-con {
+  height: 100%;
+  .mp-layout {
+    height: 100%;
+    .mpl-layout {
+      height: calc(100% - 55px);
+    }
+  }
+}

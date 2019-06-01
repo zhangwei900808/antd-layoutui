@@ -39,14 +39,14 @@ function* test() {
         id: 2,
         isShow: "1",
         resourceName: "部门管理",
-        url: "/caseAnalysis"
+        url: "/departmentManage"
       },
       {
         icon: "table",
         id: 3,
         isShow: "1",
         resourceName: "用户管理",
-        url: "/dataManage"
+        url: "/userManage"
       }
     ]
   });

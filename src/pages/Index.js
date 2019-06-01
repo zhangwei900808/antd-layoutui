@@ -79,7 +79,7 @@ class Index extends Component {
     ];
 
     return (
-      <MasterPage title="首页">
+      <MasterPage title="综合态势">
         <Table columns={columns} dataSource={data} />
       </MasterPage>
     );

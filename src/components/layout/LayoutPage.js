@@ -82,13 +82,13 @@ class LayoutPage extends Component {
               <Dropdown overlay={ddMenu} placement="bottomRight" className="right-header-right-dropdown">
                 <div>
                   <Avatar size="default" style={{ backgroundColor: "#87d068" }} icon="user" />
-                  <span style={{ marginLeft: 8 }}>{authReducer.user ? authReducer.user.name : "用户"}</span>
+                  <span style={{ marginLeft: 8 }}>{authReducer.get("user") ? authReducer.getIn(["user", "name"]) : "用户"}</span>
                 </div>
               </Dropdown>
             </div>
           </Header>
           <Content className="layout-page-right-content">
-            <Switch>{authReducer.token ? renderRoutes(routes) : <Redirect to="/login" />}</Switch>
+            <Switch>{authReducer.get("token") ? renderRoutes(routes) : <Redirect to="/login" />}</Switch>
           </Content>
         </Layout>
       </Layout>

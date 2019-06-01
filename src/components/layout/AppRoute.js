@@ -12,7 +12,7 @@ import NoFound from "../../pages/NoFound";
 class AppRoute extends Component {
   // 用户认证
   Authentication() {
-    return this.props.store.authReducer.token ? <Redirect to="/" /> : <Login />;
+    return this.props.store.authReducer.get("token") ? <Redirect to="/" /> : <Login />;
   }
   render() {
     return (

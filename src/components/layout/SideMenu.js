@@ -33,7 +33,7 @@ class MenuPage extends Component {
 
   render() {
     const { layoutPageReducer, authReducer } = this.props;
-    let menus = layoutPageReducer.menus;
+    let menus = layoutPageReducer.get("menus");
 
     let newMenus = <Loading />;
     if (menus && menus.length > 0) {
@@ -73,12 +73,12 @@ class MenuPage extends Component {
       <>
         <Menu
           theme="light"
-          defaultSelectedKeys={[layoutPageReducer.index]}
-          selectedKeys={[layoutPageReducer.index]}
-          defaultOpenKeys={[layoutPageReducer.subIndex]}
+          defaultSelectedKeys={[layoutPageReducer.get("index")]}
+          selectedKeys={[layoutPageReducer.get("index")]}
+          defaultOpenKeys={[layoutPageReducer.get("subIndex")]}
           mode="inline"
           className="sider-menu-container"
-          inlineCollapsed={layoutPageReducer.collapsed}
+          inlineCollapsed={layoutPageReducer.get("collapsed")}
           onClick={this.clickSidebarMenu}
         >
           {newMenus}

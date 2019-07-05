@@ -33,13 +33,13 @@ class Login extends Component {
     return (
       <div className="login-container">
         <div className="block-modal">
-          <div className="bm-content" />
+          {/* <div className="bm-content" />
           <div className="cn-title">
             <span>{config.subTitle}</span>
           </div>
           <div className="en-title">
             <span>{config.enTitle}</span>
-          </div>
+          </div> */}
           <div className="copyright">
             <span>{config.copyright}</span>
           </div>

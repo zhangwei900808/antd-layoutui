@@ -70,6 +70,22 @@
       right: 16.6%;
       top: 5%;
       height: calc(100vh - 100px);
+
+      .copyright {
+        width: 100%;
+        position: absolute;
+        bottom: 10%;
+        left: 0;
+        right: 0;
+        z-index: 4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        span {
+          color: #ccc;
+        }
+      }
     }
   }
 

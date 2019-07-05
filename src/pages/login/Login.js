@@ -40,9 +40,9 @@ class Login extends Component {
           <div className="en-title">
             <span>{config.enTitle}</span>
           </div> */}
-          <div className="copyright">
+          {/* <div className="copyright">
             <span>{config.copyright}</span>
-          </div>
+          </div> */}
         </div>
         {/* <img src={LOGIN} alt="" className="img-logo" /> */}
         <div className="lc-content">
@@ -73,6 +73,9 @@ class Login extends Component {
                 </Button>
               </Form.Item>
             </Form>
+            <div className="copyright">
+              <span>{config.copyright}</span>
+            </div>
           </div>
         </div>
       </div>

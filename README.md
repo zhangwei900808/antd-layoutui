@@ -2,6 +2,7 @@
 
 ### 目录结构
 
+```
 |-- antd-layoutui
 |-- App.js
 |-- index.js
@@ -79,3 +80,4 @@
 | |-- MockRequest.js
 |-- test
 |-- App.test.js
+```

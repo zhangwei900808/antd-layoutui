@@ -4,80 +4,43 @@
 
 ```
 |-- antd-layoutui
-    |-- App.js
-    |-- index.js
+    |-- App.js   # App程序入口
+    |-- index.js # 程序入口
     |-- serviceWorker.js
-    |-- HOC
+    |-- HOC      # 高阶组件
     |   |-- control.js
-    |-- assets
-    |   |-- audio
-    |   |-- css
-    |   |   |-- App.scss
-    |   |   |-- base.scss
-    |   |   |-- index.css
-    |   |   |-- override-antd.scss
-    |   |-- image
-    |   |   |-- Welcome.png
-    |   |   |-- awbeci.png
-    |   |   |-- bgLogo.png
-    |   |   |-- hiy_logo.png
-    |   |   |-- indexPop1.png
-    |   |   |-- indexPop2.png
-    |   |   |-- logo.png
-    |   |   |-- logoX.png
-    |   |   |-- right.png
+    |-- assets   # 资源目录
+    |   |-- audio # 音频
+    |   |-- css   # css样式
+    |   |-- image # 图片目录
     |   |-- video
     |-- components
-    |   |-- common
-    |   |-- layout
-    |       |-- AppRoute.js
-    |       |-- LayoutPage.js
-    |       |-- Loading.js
-    |       |-- MasterPage.js
-    |       |-- RouterView.js
-    |       |-- SideMenu.js
-    |       |-- layoutPage.scss
-    |       |-- masterPage.scss
-    |-- config
+    |   |-- common # 公共组件
+    |   |-- layout # 布局组件
+    |-- config  # 配置文件
     |   |-- base.conf.js
-    |-- context
-    |   |-- themeContext.js
-    |-- pages
-    |   |-- Index.js
-    |   |-- NoFound.js
-    |   |-- NoPermission.js
-    |   |-- login
-    |       |-- Login.js
-    |       |-- login.scss
-    |-- redux
-    |   |-- actions
-    |   |   |-- authAction.js
-    |   |   |-- layoutPageAction.js
-    |   |-- middleware
-    |   |   |-- authTokenMiddleware.js
-    |   |-- reducers
-    |   |   |-- authReducer.js
-    |   |   |-- index.js
-    |   |   |-- layoutPageReducer.js
-    |   |-- sagas
-    |   |   |-- authSaga.js
-    |   |   |-- index.js
-    |   |-- store
-    |       |-- index.js
-    |-- router
+    |-- context # 上下文
+    |-- pages # 页面组件
+    |-- redux # redux目录
+    |   |-- actions    # actions 目录
+    |   |-- middleware # 中间件目录
+    |   |-- reducers   # reducers目录
+    |   |-- sagas      # sagas 目录
+    |   |-- store      # store 目录
+    |-- router         # 路由 目录
     |   |-- index.js
-    |-- service
-    |   |-- apis
+    |-- service        # 后台 service 服务
+    |   |-- apis       # apis 目录
     |   |   |-- 1.0
     |   |       |-- index.js
     |   |       |-- urls.js
-    |   |-- mocks
+    |   |-- mocks      # mocks 目录
     |   |   |-- 1.0
     |   |       |-- index.js
-    |   |       |-- testMock.js
-    |   |-- request
+    |   |-- request   # 前端请求后台目录
     |       |-- ApiRequest.js
     |       |-- MockRequest.js
-    |-- test
+    |-- test          # 测试 目录
         |-- App.test.js
+
 ```

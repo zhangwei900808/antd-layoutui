@@ -37,7 +37,7 @@
     |   |-- mocks      # mocks 目录
     |   |   |-- 1.0
     |   |       |-- index.js
-    |   |-- request    # 前端请求后台目录
+    |   |-- request    # 前端请求封装工具类
     |       |-- ApiRequest.js
     |       |-- MockRequest.js
     |-- test           # 测试 目录

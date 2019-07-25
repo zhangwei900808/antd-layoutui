@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "96cc9421447aa75f0bf0327e8e21997d",
+    "revision": "d91d5832c1c88034935b8450119870e5",
     "url": "/antd-layoutui/index.html"
   },
   {
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/antd-layoutui/static/css/4.9c72ae40.chunk.css"
   },
   {
-    "revision": "264ad4c559ae57b87905",
+    "revision": "ba79d8fe4a2b6ef59afa",
     "url": "/antd-layoutui/static/css/main.0d941d9e.chunk.css"
   },
   {
@@ -32,12 +32,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/antd-layoutui/static/js/4.7d83da9d.chunk.js"
   },
   {
-    "revision": "264ad4c559ae57b87905",
-    "url": "/antd-layoutui/static/js/main.352380aa.chunk.js"
+    "revision": "ba79d8fe4a2b6ef59afa",
+    "url": "/antd-layoutui/static/js/main.1a788d07.chunk.js"
   },
   {
     "revision": "ace08df00aa75998b81f",
     "url": "/antd-layoutui/static/js/runtime~main.5194fb67.js"
+  },
+  {
+    "revision": "7aa7a68a7996296683e2c5d6e313afc3",
+    "url": "/antd-layoutui/static/media/awbeci.7aa7a68a.png"
   },
   {
     "revision": "d64474a8d23b32f731e9f67ccf01fa57",

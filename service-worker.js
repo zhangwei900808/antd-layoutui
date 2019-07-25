@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/antd-layoutui/precache-manifest.38a8240a34b35d9b000fd822131d9295.js"
+  "/antd-layoutui/precache-manifest.f5d6ab6ee252362e72c5572e08484190.js"
 );
 
 self.addEventListener('message', (event) => {

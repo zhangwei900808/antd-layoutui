@@ -60,12 +60,12 @@ class Login extends Component {
               <Form.Item>
                 {getFieldDecorator("userName", {
                   rules: [{ required: true, message: "请输入用户名!" }]
-                })(<Input size="large" prefix={<Icon type="user" style={{ fontSize: "20px", color: "rgba(0,0,0,.25)" }} />} placeholder="用户名" />)}
+                })(<Input style={{ width: "100%" }} size="large" prefix={<Icon type="user" style={{ fontSize: "2rem", color: "rgba(0,0,0,.25)" }} />} placeholder="用户名" />)}
               </Form.Item>
               <Form.Item>
                 {getFieldDecorator("password", {
                   rules: [{ required: true, message: "请输入密码!" }]
-                })(<Input.Password size="large" prefix={<Icon type="lock" style={{ fontSize: "20px", color: "rgba(0,0,0,.25)" }} />} placeholder="密码" />)}
+                })(<Input.Password size="large" prefix={<Icon type="lock" style={{ fontSize: "2rem", color: "rgba(0,0,0,.25)" }} />} placeholder="密码" />)}
               </Form.Item>
               <Form.Item>
                 <Button size="large" type="primary" htmlType="submit" className="login-form-button">

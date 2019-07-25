@@ -1,3 +1,59 @@
+@media (min-width: 240px) {
+  html {
+    font-size: 44.5%;
+  }
+}
+@media (min-width: 480px) {
+  html {
+    font-size: 46.5%;
+  }
+}
+@media (min-width: 960px) {
+  html {
+    font-size: 48.5%;
+  }
+}
+@media (min-width: 1024px) {
+  html {
+    font-size: 50.5%;
+  }
+}
+@media (min-width: 1280px) {
+  html {
+    font-size: 52.5%;
+  }
+}
+@media (min-width: 1366px) {
+  html {
+    font-size: 54.5%;
+  }
+}
+@media (min-width: 1440px) {
+  html {
+    font-size: 56.5%;
+  }
+}
+@media (min-width: 1680px) {
+  html {
+    font-size: 58.5%;
+  }
+}
+@media (min-width: 1920px) {
+  html {
+    font-size: 60.5%;
+  }
+}
+@media (min-width: 2560px) {
+  html {
+    font-size: 70.5%;
+  }
+}
+
+@media (min-width: 3840px) {
+  html {
+    font-size: 80.5%;
+  }
+}
 body {
   margin: 0;
   padding: 0;

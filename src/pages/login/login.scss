@@ -55,26 +55,34 @@
   }
 
   .lc-content {
-    background: #fff;
     position: absolute;
-    width: 450px;
-    height: calc(100vh - 100px);
-    min-height: 500px;
-    top: 50px;
-    right: 2.6%;
-    bottom: 50px;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
     z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     .content-wrapper {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 30px 0;
+      width: 33%;
+      height: 60%;
+      background: #fff;
+      border-radius: .8rem;
       position: absolute;
-      right: 16.6%;
-      top: 5%;
-      height: calc(100vh - 100px);
+      right: 10%;
 
       .copyright {
         width: 100%;
         position: absolute;
-        bottom: 10%;
+        bottom: 5%;
         left: 0;
         right: 0;
         z-index: 4;
@@ -90,8 +98,8 @@
   }
 
   .top-title {
-    width: 300px;
-    height: 250px;
+    width: 100%;
+    height: 45%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -99,11 +107,11 @@
 
     .logo-wrapper {
       text-align: center;
-      padding-bottom: 15px;
+      padding-bottom: 1.5rem;
 
       img {
-        width: 3rem;
-        height: 3rem;
+        width: 4rem;
+        height: 4rem;
         background: #2049ab;
         border-radius: 100%;
       }
@@ -113,31 +121,31 @@
       width: 100%;
       display: inline-block;
       text-align: center;
-      padding-top: 50px;
+      padding-top: 3rem;
 
       .welcome {
-        font-size: 1.4rem;
+        font-size: 2rem;
         color: #000;
         // border-bottom: 4px solid #2f54eb;
-        padding-bottom: 10px;
+        padding-bottom: 1rem;
         position: relative;
-
-        &:after {
-          content: "";
-          position: absolute;
-          bottom: 0px;
-          left: 10px;
-          width: 70px;
-          height: 4px;
-          background: #2f54eb;
-          border-radius: 10px;
-        }
+        border-bottom: .25rem solid #2f54eb;
+        // &:after {
+        //   content: "";
+        //   position: absolute;
+        //   bottom: 0px;
+        //   left: 10px;
+        //   width: 70px;
+        //   height: 4px;
+        //   background: #2f54eb;
+        //   border-radius: 10px;
+        // }
       }
     }
 
     .title {
       display: inline-block;
-      font-size: 22px;
+      font-size: 2.2rem;
       font-weight: bold;
       color: #000;
     }
@@ -150,15 +158,25 @@
   }
 
   .login-form {
-    width: 300px;
+    padding: 0 5rem;
+    width: 100%;
 
     .form-title {
       display: inline-block;
       // background: url(../../assets/imgs/Welcome.png) no-repeat;
       width: 12.5rem;
       height: 1.8rem;
-      font-size: 20px;
-      margin-bottom: -20px;
+      font-size: 2rem;
+      margin-bottom: -2rem;
+    }
+
+    .login-form-button {
+      width: 100%;
+      background-color: #2f54eb;
+      border-color: #2f54eb;
+      box-shadow: 0px 4px 14px #2f54eb5e;
+      height: calc(100vw * 120 / 3840);
+      margin-top: calc(100vw * 28 / 3840);
     }
   }
 
@@ -172,4 +190,64 @@
     border-color: #2f54eb;
     box-shadow: 0px 4px 14px #2f54eb5e;
   }
+}
+
+.ant-form-item {
+  margin-bottom: calc(100vw * 72 / 3840)
+}
+
+.ant-input-lg {
+  height: calc(100vw * 108 / 3840) !important;
+  line-height: calc(100vw * 108 / 3840) !important;
+  font-size: 1.6rem;
+}
+
+.ant-input {
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
+  border-radius: 0;
+}
+
+input:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+input {
+  outline: none;
+  box-shadow: none;
+  outline-color: invert;
+  outline-style: none;
+  outline-width: 0px;
+  border: none;
+  border-style: none;
+  text-shadow: none;
+  -webkit-appearance: none;
+  -webkit-user-select: text;
+  outline-color: transparent;
+  box-shadow: none;
+
+  &:focus {
+    outline: 0 none !important;
+    box-shadow: none !important;
+  }
+}
+
+.ant-input-affix-wrapper {
+  .ant-input-prefix {
+    left: 0 !important;
+  }
+
+  .ant-input:not(:first-child) {
+    padding-left: 35px !important;
+  }
+}
+
+.login-form-button {
+  font-size: 2rem;
+}
+
+.ant-input-suffix {
+  font-size: 1.8rem;
 }

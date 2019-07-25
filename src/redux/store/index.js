@@ -1,8 +1,9 @@
 import { createStore, compose, applyMiddleware } from "redux";
-import { routerMiddleware } from "connected-react-router";
+import { routerMiddleware } from "connected-react-router/immutable";
 
 import { createMigrate, persistStore, persistReducer } from "redux-persist";
 import createEncryptor from "redux-persist-transform-encrypt";
+import immutableTransform from "redux-persist-transform-immutable";
 import storage from "redux-persist/es/storage";
 
 import createSagaMiddleware from "redux-saga";
@@ -42,7 +43,10 @@ const encryptor = createEncryptor({
 });
 
 const persistConfig = {
-  transforms: [encryptor],
+  transforms: [
+    immutableTransform()
+    // encryptor
+  ],
   key: config.persist,
   storage,
   version: 2,

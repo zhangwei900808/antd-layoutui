@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d91d5832c1c88034935b8450119870e5",
+    "revision": "8902de7835d5472a10b5f66d4f12f744",
     "url": "/antd-layoutui/index.html"
   },
   {

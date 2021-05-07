@@ -4757,6 +4757,10 @@ immutable@^3.7.4, immutable@^3.8.1:
   version "3.8.2"
   resolved "https://registry.npm.taobao.org/immutable/download/immutable-3.8.2.tgz#c2439951455bb39913daf281376f1530e104adf3"
 
+immutable@^4.0.0-rc.12:
+  version "4.0.0-rc.12"
+  resolved "https://registry.yarnpkg.com/immutable/-/immutable-4.0.0-rc.12.tgz#ca59a7e4c19ae8d9bf74a97bdf0f6e2f2a5d0217"
+
 immutable@~3.7.4:
   version "3.7.6"
   resolved "https://registry.npm.taobao.org/immutable/download/immutable-3.7.6.tgz#13b4d3cb12befa15482a26fe1b2ebae640071e4b"
@@ -5587,6 +5591,10 @@ js-yaml@^3.13.0, js-yaml@^3.13.1, js-yaml@^3.9.0:
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
+
+jsan@^3.1.13:
+  version "3.1.13"
+  resolved "https://registry.yarnpkg.com/jsan/-/jsan-3.1.13.tgz#4de8c7bf8d1cfcd020c313d438f930cec4b91d86"
 
 jsbn@~0.1.0:
   version "0.1.1"
@@ -8575,6 +8583,12 @@ redux-persist-transform-encrypt@^2.0.1:
     json-stringify-safe "^5.0.1"
     readable-stream "^2.2.6"
 
+redux-persist-transform-immutable@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/redux-persist-transform-immutable/-/redux-persist-transform-immutable-5.0.0.tgz#0ae277b4d8d662016f62af394df2572525ad6671"
+  dependencies:
+    remotedev-serialize "^0.1.0"
+
 redux-persist@^5.10.0:
   version "5.10.0"
   resolved "https://registry.npm.taobao.org/redux-persist/download/redux-persist-5.10.0.tgz#5d8d802c5571e55924efc1c3a9b23575283be62b"
@@ -8673,6 +8687,12 @@ rehype-parse@^6.0.0:
 relateurl@0.2.x:
   version "0.2.7"
   resolved "https://registry.npm.taobao.org/relateurl/download/relateurl-0.2.7.tgz#54dbf377e51440aca90a4cd274600d3ff2d888a9"
+
+remotedev-serialize@^0.1.0:
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/remotedev-serialize/-/remotedev-serialize-0.1.9.tgz#5e67e05cbca75d408d769d057dc59d0f56cd2c43"
+  dependencies:
+    jsan "^3.1.13"
 
 remove-trailing-separator@^1.0.1:
   version "1.1.0"
@@ -9926,8 +9946,8 @@ typescript-tuple@^2.1.0:
     typescript-compare "^0.0.2"
 
 ua-parser-js@^0.7.18:
-  version "0.7.19"
-  resolved "https://registry.npm.taobao.org/ua-parser-js/download/ua-parser-js-0.7.19.tgz#94151be4c0a7fb1d001af7022fdaca4642659e4b"
+  version "0.7.28"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.28.tgz#8ba04e653f35ce210239c64661685bf9121dec31"
 
 uglify-js@3.4.x:
   version "3.4.10"

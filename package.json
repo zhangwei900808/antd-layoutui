@@ -22,7 +22,7 @@
     "immutable": "^4.0.0-rc.12",
     "mddir": "^1.1.1",
     "mockjs": "^1.0.1-beta3",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "node-sass": "^4.11.0",
     "prettier": "^1.16.4",
     "react": "^16.8.6",
